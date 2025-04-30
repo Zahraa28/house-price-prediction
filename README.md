@@ -16,10 +16,24 @@ This project predicts house prices using machine learning (Linear Regression) ba
 ## Results
 
 - Cross-Validation R² Score: 94.25%
-- Submission file created at `submission/submission.csv`
+- Submission file created at `linear_regression_submission.csv`
 
 ## How to Run
 
 ```bash
 pip install -r requirements.txt
-python main.py  # If you have a script
+python main.py
+
+house-price-prediction/
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+├── notebook/
+│   └── house_price_model.ipynb
+├── models/
+│   └── final_model.pkl
+├── submission/
+│   └── linear_regression_submission.csv
+├── README.md
+└── requirements.txt
+
