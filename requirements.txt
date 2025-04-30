@@ -1,0 +1,13 @@
+import pandas as pd
+import numpy as np
+import matplotlib
+import seaborn
+import sklearn
+import scipy
+
+print(f"pandas=={pd.__version__}")
+print(f"numpy=={np.__version__}")
+print(f"matplotlib=={matplotlib.__version__}")
+print(f"seaborn=={seaborn.__version__}")
+print(f"scikit-learn=={sklearn.__version__}")
+print(f"scipy=={scipy.__version__}")
